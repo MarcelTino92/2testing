@@ -4,7 +4,9 @@ from streamlit_lottie import st_lottie
 col1,col2=st.columns([1, 2])
 
 with col1:
+  st.markdown('<div class="center-content">', unsafe_allow_html=True)
   st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
+  st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
   st.markdown(
@@ -29,9 +31,11 @@ with col2:
     )
   st.markdown(
         '''
-        <div class="centered-title-container">
-            <div class="centered-title">Answers are recorded for this section.</div>
-            <div class="centered-title"> Please close the Tab</div>
+        <div class="center-content">
+            <div>
+                <div class="centered-title">Answers are recorded for this section</div>
+                <div class="centered-title">Please close the Tab</div>
+            </div>
         </div>
         ''',
         unsafe_allow_html=True
