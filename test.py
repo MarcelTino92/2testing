@@ -31,11 +31,8 @@ with col2:
     )
   st.markdown(
         '''
-        <div class="center-content">
-            <div>
-                <div class="centered-title">Answers are recorded for this section</div>
-                <div class="centered-title">Please close the Tab</div>
-            </div>
+        <div class="centered-title-container">
+            <div class="centered-title">Answers are recorded for this section. Please close the Tab</div>
         </div>
         ''',
         unsafe_allow_html=True
