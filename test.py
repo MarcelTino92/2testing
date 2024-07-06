@@ -21,6 +21,7 @@ with col2:
             font-size: 20px;
             font-weight: bold;
             white-space: nowrap;
+            font-style: italic;
             margin: 10px 0;
         }
         </style>
