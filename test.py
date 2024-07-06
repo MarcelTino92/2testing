@@ -21,10 +21,18 @@ with col2:
             font-size: 32px;
             font-weight: bold;
             white-space: nowrap;
+            margin: 10px 0;
         }
         </style>
         """,
         unsafe_allow_html=True,
     )
-  st.markdown('<div class="centered-title-container"><div class="centered-title"> Answers are recorded for this section</div></div>', unsafe_allow_html=True)
-  st.markdown('<div class="centered-title-container"><div class="centered-title">Please close the Tab</div></div>', unsafe_allow_html=True)
+  st.markdown(
+        '''
+        <div class="centered-title-container">
+            <div class="centered-title">Answers are recorded for this section</div>
+            <div class="centered-title">Please close the Tab</div>
+        </div>
+        ''',
+        unsafe_allow_html=True
+    )
