@@ -7,5 +7,16 @@ with col1:
 
 with col2:
     long_title ="AI Question-Part1 is completed"
-    st.title(f"""<nobr>{long_title}</nobr>""", unsafe_allow_html=True)
+    # Apply CSS styling using st.markdown
+    st.markdown(f"""<style>
+    .title-container {{
+        width: 400px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;  /* Prevent additional whitespace within the title */
+    }}
+    </style>
+    <div class="title-container">
+    <h1>{long_title}</h1>
+    </div>""", unsafe_allow_html=True)
     st.title("*Please close this Tab*")
