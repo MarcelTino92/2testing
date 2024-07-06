@@ -20,6 +20,7 @@ with col2:
         .centered-title {
             font-size: 32px;
             font-weight: bold;
+            white-space: nowrap;
         }
         </style>
         """,
