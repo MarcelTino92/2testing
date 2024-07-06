@@ -6,12 +6,4 @@ with col1:
     st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
 
 with col2:
-    title_alignment=
-        """
-        <style>
-        #the-title {
-          text-align: center
-        }
-        </style>
-        """
-    st.markdown(title_alignment, unsafe_allow_html=True)
+    st.title("AI Question-Part1 is completed. Please close the Tab")
