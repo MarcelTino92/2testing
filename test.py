@@ -12,6 +12,6 @@ with col2:
         }
     </style>""", unsafe_allow_html=True)
 
-    with st.container(class_="col2-content"):
+    with st.container():
         st.empty()  # Optional: Add some space before the title
         st.title("You have completed this section")
