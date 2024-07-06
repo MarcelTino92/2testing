@@ -18,7 +18,7 @@ with col2:
             height: 30vh;
         }
         .centered-title {
-            font-size: 20px;
+            font-size: 48px;
             font-weight: bold;
             white-space: nowrap;
             font-style: italic;
