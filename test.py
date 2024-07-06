@@ -7,5 +7,5 @@ with col1:
 
 with col2:
     long_title ="AI Question-Part1 is completed"
-    st.markdown(f"""<nobr>{long_title}</nobr>""", unsafe_allow_html=True)
+    st.title(f"""<nobr>{long_title}</nobr>""", unsafe_allow_html=True)
     st.title("*Please close this Tab*")
