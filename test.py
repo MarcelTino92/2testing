@@ -32,6 +32,7 @@ with col2:
         <div class="centered-title-container">
             <div class="centered-title"> Answers are recorded for this section</div>
         </div>
+        '''
     )
 
 
