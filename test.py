@@ -11,16 +11,18 @@ with col2:
   st.markdown(
         """
         <style>
-        .centered-title {
+        .centered-title-container {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%;
-            font-size: 48px;
+            height: 100vh;
+        }
+        .centered-title {
+            font-size: 24px;
             font-weight: bold;
         }
         </style>
         """,
         unsafe_allow_html=True,
     )
-  st.markdown('<div class="centered-title">Please close the Tab</div>', unsafe_allow_html=True)
+    st.markdown('<div class="centered-title-container"><div class="centered-title">Please close the Tab</div></div>', unsafe_allow_html=True)
