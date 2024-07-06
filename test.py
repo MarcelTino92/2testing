@@ -33,6 +33,6 @@ with col2:
             <div class="centered-title">Answers are recorded for this section</div>
             <div class="centered-title">Please close the Tab</div>
         </div>
-        ''',
+        ''', 
         unsafe_allow_html=True
     )
