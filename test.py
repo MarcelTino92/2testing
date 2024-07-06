@@ -32,7 +32,7 @@ with col2:
   st.markdown(
         '''
         <div class="centered-title-container">
-            <div class="centered-title">Answers are recorded for Part-1 AI section. Please close the Tab and proceed further</div>
+            <div class="centered-title">Answers are recorded for Part-1 AI section. Please close the Tab</div>
         </div>
         ''',
         unsafe_allow_html=True
