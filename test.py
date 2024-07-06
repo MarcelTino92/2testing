@@ -16,7 +16,7 @@ with col2:
             justify-content: center;
             align-items: center;
             height: 100%;
-            font-size: px;
+            font-size: 48px;
             font-weight: bold;
         }
         </style>
