@@ -15,10 +15,10 @@ with col2:
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 50vh;
+            height: 40vh;
         }
         .centered-title {
-            font-size: 24px;
+            font-size: 48px;
             font-weight: bold;
         }
         </style>
