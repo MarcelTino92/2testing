@@ -7,4 +7,4 @@ with col1:
 
 with col2:
     st.title("*AI Question-Part1 is completed*")
-    st.title("Please close the Tab")
+    st.title("*Please close this Tab*")
