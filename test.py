@@ -8,4 +8,19 @@ with col1:
   st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
 
 with col2:
-  st.title("Please close the Tab")
+  st.markdown(
+        """
+        <style>
+        .centered-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown('<div class="centered-title">Please close the Tab</div>', unsafe_allow_html=True)
