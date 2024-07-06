@@ -7,4 +7,4 @@ with col1:
 
 with col2:
     st.empty()
-    st.header("You have completed this section")
+    st.title("You have completed this section")
