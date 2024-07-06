@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 #col1, col2 =st.columns([1, 3])
-
+st.set_page_config(layout="wide")
 col1,col2=st.columns([1, 2])
 
 with col1:
