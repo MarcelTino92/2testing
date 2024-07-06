@@ -6,12 +6,12 @@ with col1:
     st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
 
 with col2:
-    st.markdown("""<style>
-        .col2-content {
-            text-align: left;  /* Change to 'right' for right-alignment */
+    title_alignment=
+        """
+        <style>
+        #the-title {
+          text-align: center
         }
-    </style>""", unsafe_allow_html=True)
-
-    with st.container():
-        st.empty()  # Optional: Add some space before the title
-        st.title("You have completed this section")
+        </style>
+        """
+    st.markdown(title_alignment, unsafe_allow_html=True)
