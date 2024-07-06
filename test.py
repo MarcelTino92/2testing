@@ -5,5 +5,5 @@ col1, col2,col3 =st.columns(3)
 with col1:
     st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
 
-with col2 and col3:
+with col2&col3:
     st.header("You have completed this section")
