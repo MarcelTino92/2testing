@@ -6,9 +6,5 @@ with col1:
     st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
 
 with col2:
-    st.write("")
-    st.write("")
-    st.write("")
-    st.write("")
-    st.write("")
+    st.empty(height=100)
     st.header("You have completed this section")
