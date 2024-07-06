@@ -25,5 +25,5 @@ with col2:
         """,
         unsafe_allow_html=True,
     )
-  st.markdown('<div class="centered-title-container"><div class="centered-title">Part-1 AI questions has been completed</div></div>', unsafe_allow_html=True)
+  st.markdown('<div class="centered-title-container"><div class="centered-title">Answers are recorded for this section</div></div>', unsafe_allow_html=True)
   st.markdown('<div class="centered-title-container"><div class="centered-title">Please close the Tab</div></div>', unsafe_allow_html=True)
