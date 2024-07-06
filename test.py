@@ -18,7 +18,7 @@ with col2:
             height: 30vh;
         }
         .centered-title {
-            font-size: 48px;
+            font-size: 32px;
             font-weight: bold;
         }
         </style>
