@@ -1,6 +1,15 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 #col1, col2 =st.columns([1, 3])
+white_canvas = st.container()
+white_canvas.style(
+        backgroundColor="white",
+        padding="0px",  # Remove padding for seamless integration
+    )
+
+    # Add your custom HTML content within the container
+white_canvas.empty()  # Clear any existing content
+  
 col1,col2=st.columns([1, 2])
 
 with col1:
