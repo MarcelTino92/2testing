@@ -40,6 +40,9 @@ with col2:
         unsafe_allow_html=True
     )
 with bottom():
-  st.write("This app is prepared by SRI")
+  colored_header(label="About SRI", description="Strategic Research Insights (SRI) is a primary market research and secondary data analytics company specializing in the pharmaceutical industry. Located in Princeton, New Jersey, SRI team leaders come from backgrounds in marketing, market research, operational research, and statistics.",color_name="red-70",)
+  from markdownlit import mdlit
+  mdlit("For more details visit [SRI Website](https://srinsights.com/)")
+    
 
 
