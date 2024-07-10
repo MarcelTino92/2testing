@@ -5,7 +5,7 @@ col1,col2=st.columns([1, 2])
 
 with col1:
   st.markdown('<div class="center-content">', unsafe_allow_html=True)
-  st_lottie("https://lottie.host/8c7af937-e96c-4955-a94d-199d3bea826e/oodWrMRHNo.json")
+  st_lottie("https://lottie.host/a9e02ba9-9254-437b-8dca-493958122b8c/x9shcw0SXx.json")
   st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
