@@ -39,6 +39,6 @@ with col2:
         unsafe_allow_html=True
     )
 with bottom():
-  st.empty()
+  st.write("This app is prepared by SRI")
 
 
