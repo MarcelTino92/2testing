@@ -16,7 +16,7 @@ with col2:
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 30vh;
+            height: 15vh;
         }
         .centered-title {
             font-size: 18px;
